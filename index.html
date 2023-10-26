@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Web Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://kit.fontawesome.com/046530edb0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <a href="#"><img src="trans.png" class="logo"></a>
+        <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#my-work">My Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+      <p>Heyy...! I'm <span>Abdul Rehman</span> a Passonate</div>
+        <div class="main-title"><h2 contenteditable="true">Front-End<br>Developer</h2></div>
+        <div class="help"><p>I help Companies building there buissness into digital world to
+        connect more people via Websites and Mobile Apps.</p></div>
+        <div><a href="Front-End Developer CV.pdf" class="download" download="">Download Resume <i class="fa-solid fa-download"></i></a>
+      </div>
+          <hr class="header-line">
+    </div>
+  </div>
+
+    <!-- ------About------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="about-me.png">
+          </div>
+          <div class="about-col-2">
+            <div class="lorem"><h1 class="sub-title">About Me</h1>
+            <p>I'm a professional Front-End Web Developer with more than 1.5 year of experience. I've created 7 web applications for various businesses and clients. I've used agile methodology to write code which is easy to customize. Please feel free to contact me for any kind of web application/website whether it is small or with a huge database.</p>
+            </div>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+            </div>
+            <div class="tab-contents-list active-tab skills-1" id="skills">
+                <div><p><img src="html.png"><span>HTML</span><br>17 months</p></div>
+                <div><p><img src="css.png"><span>CSS</span><br>17 months</p></div>
+                <div><p><img src="javascript.png"><span>JavaScript</span><br>17 months</p></div>
+                <div><p><img src="bootstrap.png"><span>Bootstrap</span><br>17 months</p></div>
+                <div><p><img src="react.png"><span>React</span><br>12 months</p></div>
+                <div><p><img src="tailwind.png"><span>Tailwind.css</span><br>6 months</p></div>
+                <div><p><img src="next.js.png"><span>Next.js</span><br>6 months</p></div>
+                <div><p><img src="typescript.png"><span>TypeScript</span><br>6 months</p></div>
+                <div><p><img src="angular.png"><span>Angular</span><br>6 months</p></div>
+                <div><p><img src="jquery.png"><span>JQuery</span><br>6 months</p></div>
+                <div><p><img src="github.png"><span>Git + GitHub</span><br>17 months</p></div>
+                <div><p><img src="web-developer.png"><span>Web Development</span><br>17 months</p></div>
+            </div>
+          
+          <div class="tab-contents-list skills-2" id="experience">
+                <div><p><span>2022 - Current<br></span>Front-End Development</p></div>
+                <div><p><span>Certificate</span><br>Sep-2023 from FreeCodeCamp USA</p></div>
+                <div><p><span>Debugging</span><br>Error Messages. Breakpoints. Isolation.<br>Logging, `console.log()`. Version Control.</p></div>
+                <div><p><span>Responsive</span><br>Web development for desktop, laptop, tablet, mobile phone and projector screen size</p></div>
+                <div><p><span>7 Projects</span><br>Done so far as a Freelancer.</p></div>
+                <div><p><span>1.5 year Experience</span><br>Front-End Development</p></div>
+            </div>
+          
+          <div class="tab-contents-list skills-3" id="certificate">
+              <h3>Responsive Web Design Developer Certificate</h3><br>
+                  <img src="certificate1.png" alt="certificate" class="certificate">
+                <p>Click <a href="https://www.freecodecamp.org/certification/AbdulRehmanFrontEndDeveloper/responsive-web-design">Here</a> to verify Certificate</p>
+                <br>
+                <br>
+                  <img src="certificate2.png" alt="certificate" class="certificate">
+                <p>Click <a href="https://www.freecodecamp.org/certification/AbdulRehmanFrontEndDeveloper/front-end-development-libraries">Here</a> to verify Certificate</p>
+            </div>
+            </div>
+          </div>
+      <hr class="about-line">
+      </div>
+    </div>
+
+        <!-- ----------------Services------------------ -->
+
+
+        <div id="services">
+          <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>
+                  I am an experienced and highly motivated professional with expertise in
+                  Web Development. With a strong track record of HTML, CSS, JavaScript
+                  and front end frame works and libraries, I bring a results-oriented
+                  approach to every project. My ability to Front-End Development allows
+                  me to excel in Responsive Web Development.</p>
+                <a href="#">Learn more</a>
+              </div>
+               <div>
+                <i class="fa-solid fa-bug"></i>
+                <h3>Debugging</h3>
+                  <p>Patience & Persistence.</p>
+                  <p>Developer Tools.</p>
+                  <p>Error Messages.</p>
+                  <p>Breakpoints.</p>
+                  <p>Isolation. Logging, `console.log()`</p>
+                  <p>Version Control.</p>
+                  <p>Collaboration.</p>
+                  <p>Continuous Learning.</p>
+                  <p>Documentation.</p>
+                  <p>Etc.</p>
+                <a href="#">Learn more</a>
+              </div>
+               <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>Responsive User-Friendly Website</h3>
+                <p>As a responsive design developer, I specialize in creating web experiences that adapt seamlessly to various devices and screen sizes. With a meticulous eye for detail and a strong focus on user-centered design.</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>React Development</h3>
+                <p>I'm a dedicated React developer with a passion for crafting exceptional user experiences. With a strong foundation in component-driven architecture, state management, and responsive design, I bring web applications to life with elegance and efficiency.</p>
+                <a href="#">Learn more</a>
+              </div>
+               <div>
+                <i class="fa-brands fa-figma"></i>
+                <h3>Custom Design to Functional Website </h3>
+                <p>Figma, Photoshop,
+                Sketch, Handmade-Sketch,
+                PDF, and Image everything will be convert as per client need.</p>
+                <a href="#">Learn more</a>
+              </div>
+               <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h3>Revision</h3>
+                <p>Revision is a critical phase in the web development process. It serves as the quality control checkpoint that ensures your website is polished and error-free. Through careful examination and testing, revisions help identify and rectify issues related to design, functionality, and user experience.</p>
+                <a href="#">Learn more</a>
+              </div>
+            </div>
+          <hr class="service-line">
+          </div>
+        </div>
+
+        <!-- ---------------my work------------- -->
+
+
+        <div id="my-work">
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+              <div class="work">
+                <img src="responsiv.png">
+                <div class="layer">
+                  <h3>Social Media App</h3>
+                  <p>The app connects you to the talented people around the world.
+                  Download it from the App Store and Play Store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="3dcubes.png">
+                <div class="layer">
+                  <h3>Music App</h3>
+                  <p>The app connects you to the talented people around the world.
+                  Download it from the App Store and Play Store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <video src="code with abdul.mp4" preload autoplay muted loop></video>
+                <div class="layer">
+                  <h3>Online Shopping App</h3>
+                  <p>The app connects you to the talented people around the world.
+                  Download it from the App Store and Play Store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+          <hr class="work-line">
+          </div>
+        </div>
+
+
+
+        <!-- --------------------contact----------------- -->
+
+
+        <div id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="abdulrehmanchatha@gmail.com"><i class="fa-solid fa-envelope-circle-check"></i></a> abdulrehman@programmer.net</p>
+                <p><a href="https://wa.link/sleco6"><i class="fa-brands fa-whatsapp"></i></a> +923466521710</p>
+                <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/abdul-web-developer/"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://www.instagram.com/abdulrehman.chatha.3/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://twitter.com/rda11511"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="https://github.com/DoctorOfCoding"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.freecodecamp.org/certification/AbdulRehmanFrontEndDeveloper/responsive-web-design"><i class="fa-brands fa-free-code-camp"></i></a>
+                </div>
+              </div>
+              <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+              </div>
+            </div>
+          </div>
+          <div class="top"><a href="#"><i class="fa-solid fa-up-long"></i></a></div>
+        </div>
+
+        <!-- ---------------------Copyrights--------------------- -->
+
+          <div id="copyright">
+            <p><i class="fa-regular fa-copyright"></i> 2023 Developed by DoctorOfCoding</p>
+          </div>
+
+
+        <!-- -----------------script-------------- -->
+
+
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontentslist = document.getElementsByClassName('tab-contents-list');
+
+       function opentab(tabname) {
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontentslist){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+
+    </script>
+
+    <script type="text/javascript">
+      
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxrGTQ-KoEmncmNPDMBOrL4LJnD9pbfRuYJkjnBDjbAKzDM9-z56vb_xyOlYZeoUwB5/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },10000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
